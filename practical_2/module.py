@@ -15,6 +15,6 @@ class ModularNumericTable :
     
 # Driver Function 
 if __name__ == "__main__" :
-    num_table = ModularNumericTable(10)
+    num_table : ModularNumericTable = ModularNumericTable(10)
     print(num_table.generate_table())
 
